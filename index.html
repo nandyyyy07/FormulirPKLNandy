@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Biodata</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <img src="Profil_Pengguna.jpg" alt="Logo" class="logo">
+                <h1 class="title">formulir pendaftaran Praktik kerja lapangan(PKL)</h1>
+            </div>
+        </div>
+    </nav>
+    <div class="form-container">
+        <h2>Biodata</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="form-group">
+                <label for="kelas">Kelas:</label>
+                <input type="text" id="kelas" name="kelas" required>
+            </div>
+            <div class="form-group">
+                <label for="tempat-lahir">Tempat Lahir:</label>
+                <input type="text" id="tempat-lahir" name="tempat_lahir" required>
+            </div>
+            <div class="form-group">
+                <label for="tanggal-lahir">Tanggal Lahir:</label>
+                <input type="date" id="tanggal-lahir" name="tanggal_lahir" required>
+            </div>
+            <div class="form-group">
+                <label for="jenis-kelamin">Jenis Kelamin:</label>
+                <select id="jenis-kelamin" name="jenis_kelamin" required>
+                    <option value="">Pilih</option>
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="usia">Usia:</label>
+                <input type="number" id="usia" name="usia" required>
+            </div>
+            <div class="form-group">
+                <label for="agama">Agama:</label>
+                <select id="agama" name="agama" required>
+                    <option value="">Pilih</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Konghucu">Konghucu</option>
+                </select>
+            </div>
+            <div class="form-group"
+                <label for="provinsi">Provinsi:</label>
+                <select id="provinsi" name="provinsi" required>
+                  <option value="">Pilih</option>
+                  <option value="aceh">Aceh</option>
+                  <option value="bali">Bali</option>
+                  <option value="jakarta">DKI Jakarta</option>
+                  <option value="jawa_barat">Jawa Barat</option>
+                  <option value="jawa_tengah">Jawa Tengah</option>
+                  <option value="jawa_timur">Jawa Timur</option>
+                </select>
+            </div>
+            <div class="form-group"
+                <label for="kode_pos">Kode Pos:</label>
+                <input type="text" id="kode_pos" name="kode_pos" required>
+            </div>
+       <h2>Alamat</h2>
+          <div class="form-group">
+              <label for="alamat">Alamat Lengkap:</label>
+              <input type="text" id="alamat" name="alamat"  required>
+          </div>
+          <div class="form-group">
+              <label for="rt">RT:</label>
+              <input type="text" id="rt" name="rt"  required>
+          </div>
+          <div class="form-group">
+              <label for="rw">RW:</label>
+              <input type="text" id="rw" name="rw" required>
+          </div>
+          <div class="form-group"
+              <label for="desa">Desa/Kelurahan:</label>
+              <select name="desa" id="desa" required>
+                    <option value="">Pilih</option>
+                    <option value="sukajaya">sukajaya</option>
+                    <option value="cipada">cipada</option>
+                    <option value="jambudipa">jambudipa</option>
+                    <option value="kertawangi">kertawangi</option>
+                    <option value="cihideung">cihideung</option>
+                    <option value="pasir langu">pasir langu</option>                
+              </select> 
+          </div>
+          <div class="form-group">
+              <label for="kecamatan">Kecamatan:</label>
+               <select name="kecamatan" id="kecamatan">
+                    <option value="">Pilih</option>
+                    <option value="lemabang">lemabang</option>
+                    <option value="cisarua">cisarua</option>
+                    <option value="parompong">parompong</option>
+                    <option value="ngamprah">ngamprah</option>
+                    <option value="padalarang">padalarang</option>
+                    <option value="cipatat">cipatat</option>                     
+               </select>
+          </div>
+          <div class="form-group">
+              <label for="kabupaten">Kabupaten/Kota:</label>
+               <select name="kabupaten" id="kabupaten">
+                    <option value="">Pilih</option>
+                    <option value="kab.bandung barat">kab.bandung barat</option>
+                    <option value="kab.bandung">kab.bandung</option>
+                    <option value="kab.cianjur">kab.cianjur</option>
+                    <option value="kab.sumedang">kab.sumedang</option>
+                    <option value="kota bandung">kota banduung</option>
+                    <option value="kota cimahi">kota cimahi</option>                  
+               </select>
+          </div>
+      <h2>Kontak</h2>
+          <div class="form-group">
+              <label for="no telepon siswa"> no telepon:</label>
+              <input type="text" id="no telepon" name="no telepon"  required>
+          </div>
+          <div class="form-group">
+              <label for="no telepon orang tua">no telepon siswa:</label>
+              <input type="text" id="no telepon orang tua" name="no telepon orang tua"  required>
+          </div>
+          <div class="form-group">
+              <label for="email siswa">email siswa:</label>
+              <input type="text" id="email siswa" name="email siswa" required>
+          </div>
+      <h2>Akun</h2>
+        <form>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+      <h2>Tempat PKL</h2>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="pkl_place" value="Tempat 1"> PT.Telkom</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 2">PT.Ap Center Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 3">PT.Swakarya insan Mandiri Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 4">Idea Imaji Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 5">Doux Gruop Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 6">mnemonic bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 7">The Sofware Practice PTE.LTD. Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 8">Elite Asia (5G) Pte Ltd Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 9">MyVenture Capital Sdn Bhd Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 10">Gas Power Finance Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 11">PT.App Purinusa Ekapersada Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 12">Gas Power Global Supply Chain Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 13">PT.Aneka Solusi Teknologi Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 14">PT.Edot Bandung</label>
+            <label><input type="checkbox" name="pkl_place" value="Tempat 15">Ria Miranda Bandung</label>
+        </div>
+      <h2>Upload Persyaratan </h2>
+        <div class="form-group">
+            <label for="file">Upload pasfoto3x4:</label>
+            <input type="file" id="file" name="file" required>
+        </div>
+       <div class="form-group">
+            <label for="file">Upload kartu tanda pelajar:</label>
+            <input type="file" id="file" name="file" required>
+        </div>
+        <button type="submit" class="submit-btn">Upload</button>
+        </form>
+</body>
+</html>
